@@ -25,6 +25,7 @@ opk: $(TARGET)
 	cp default.gcw0.desktop	$(RELEASEDIR)
 	cp sdlsand.png		$(RELEASEDIR)
 	cp readme.txt		$(RELEASEDIR)
+	cp LICENSE		$(RELEASEDIR)
 	mksquashfs		$(RELEASEDIR) sdlsand.opk -all-root -noappend -no-exports -no-xattrs
 
 clean:
