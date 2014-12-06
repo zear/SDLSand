@@ -1373,12 +1373,12 @@ int main(int argc, char **argv)
 						}
 					}
 					break;
-				case SDLK_UP: // Increase pen size
+				case SDLK_DOWN: // Increase pen size
 					penSize *= 2;
 					if (penSize > 32)
 						penSize = 32;
 					break;
-				case SDLK_DOWN: // Decrease pen size
+				case SDLK_UP: // Decrease pen size
 					penSize /= 2;
 					if(penSize < 1)
 						penSize = 1;

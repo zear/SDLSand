@@ -9,7 +9,7 @@ SELECT: Exit game
 START: Clear screen
 Joystick: Move cursor
 D-PAD left/right: change brush type
-D-PAD up/down: increase/decrease pen size
+D-PAD up/down: decrease/increase pen size
 A: paint w/ selected brush type
 B: limit cursor speed to 1px/frame
 Y: set the brush type to eraser
