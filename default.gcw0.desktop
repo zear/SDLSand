@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=SDL Sand
+Comment=Falling sand simulation
+Exec=sdlsand.elf
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=sdlsand
+X-OD-Manual=readme.txt
+Categories=games;
